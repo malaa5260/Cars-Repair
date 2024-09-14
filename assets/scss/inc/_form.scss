@@ -1,0 +1,162 @@
+    .name-form {
+        background-color: #fff;
+    }
+        
+    .form form {
+        background-color: #fff;
+        .input-group-text {
+            background-color: #fff;
+            border-right: 0;
+            border-left: 1px solid;
+            border-color: #8a8a8a;
+        }
+        .form-control {
+            border-left: 0;
+            border-right: 1px solid;
+            border-color: #8a8a8a;
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+        .input-group-lg>.form-control:not(textarea),
+        .input-group-lg>.custom-select {
+            height: calc(2.5em + 1rem + 2px);
+        }
+         ::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: #333;
+        }
+         ::-moz-placeholder {
+            /* Firefox 19+ */
+            color: #333;
+        }
+         :-ms-input-placeholder {
+            /* IE 10+ */
+            color: #333;
+        }
+         :-moz-placeholder {
+            /* Firefox 18- */
+            color: #333;
+        }
+    }
+        
+    body.rtl {
+        .rounded-left {
+            border-top-left-radius: .25rem !important;
+            border-bottom-left-radius: .25rem !important;
+            border-top-right-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
+        }
+        .form form {
+            .input-group-text {
+                border-left: 0;
+                border-right: 1px solid;
+            }
+            .form-control {
+                border-right: 0;
+                border-left: 1px solid;
+            }
+        }
+        .input-group>.input-group-prepend>.btn,
+        .input-group>.input-group-prepend>.input-group-text,
+        .input-group>.input-group-append:not(:last-child)>.btn,
+        .input-group>.input-group-append:not(:last-child)>.input-group-text,
+        .input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle),
+        .input-group>.input-group-append:last-child>.input-group-text:not(:last-child) {
+            border-top-right-radius: .3rem;
+            border-bottom-right-radius: .3rem;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .input-group>.form-control:not(:first-child),
+        .input-group>.custom-select:not(:first-child) {
+            border-top-left-radius: .3rem;
+            border-bottom-left-radius: .3rem;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+        
+    .normal-zoom {
+        transform: scale(1);
+        cursor: zoom-in;
+        transition: transform 250ms;
+    }
+        
+    .zoom-in {
+        transform: scale(1.1);
+        cursor: zoom-out;
+        transition: transform 250ms;
+    }
+        
+    .rounded-left {
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        border-top-right-radius: .25em !important;
+        border-bottom-right-radius: .25em !important;
+    }
+    /*startcontact_us*/
+        
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: transparent;
+        background-image: url("../img/arrow.png");
+        background-repeat: no-repeat;
+        background-position-x: 4%;
+        background-position-y: 11px;
+        border: 1px solid #dfdfdf;
+        border-radius: 0px !important;
+        margin-right: 0rem;
+        margin-bottom: 2px;
+        padding: 0rem;
+        padding-right: 0rem;
+        margin-top: 7px;
+    }
+        
+    .form-control-lg,
+    textarea {
+        font-size: 18px;
+        border-radius: 10px !important;
+    }
+        
+    .login {
+        .form-group input,
+        .se,
+        textarea {
+            border-radius: 10px;
+            -moz-box-shadow: 1px 3px 9px 0px rgba(237, 237, 237, 1);
+            box-shadow: 1px 3px 9px 0px rgba(237, 237, 237, 1);
+        }
+    }
+        
+    .contact_us {
+        .log {
+            font-weight: bold;
+            font-size: 20px;
+            width: 104%;
+            padding: 10px !important;
+            background-color: $main-color!important;
+            border-color: $main-color;
+            border-radius: 7px;
+            &:hover,
+             :focus,
+             :visited {
+                background-color: transparent !important;
+                border-color: $main-color!important;
+                color: $main-color;
+            }
+        }
+        .rota {
+            -webkit-transform: rotate(95deg);
+            transform: rotate(95deg);
+        }
+        h6 i {
+            color: #00A7F6;
+            font-size: 30px;
+            &:hover {
+                color: $second-color;
+            }
+        }
+    }
